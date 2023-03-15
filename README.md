@@ -3,9 +3,9 @@
 Cloud Resume project, hosted on AWS, and general blog where the idea is to post about projects I am doing, books I might be reading or opinions I have.
 
 Todo
- - [] Host the Website
- - [] Add proper infrastructure as code
- - [] Add a visitor counter
- - [] Create a CI/CD pipeline
- - [] Write tests for it
+ - [ ] Host the Website
+ - [ ] Add proper infrastructure as code
+ - [ ] Add a visitor counter
+ - [ ] Create a CI/CD pipeline
+ - [ ] Write tests for it
 
