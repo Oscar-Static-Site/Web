@@ -1,14 +1,18 @@
-variable "domainName" {
-    default = "www.oscarcorner.com"
+variable "domain_name" {
+    default = "oscarcorner.com"
     type = string
 }
 
-variable "bucketname" {
-    default = "web-oscaras"
+variable "bucket_name" {
+    default = "oscarcorner.com"
     type = string
 }
-
 variable "zone" {
     default = "Z05080821D3KFPK0X4CL1"
     type = string
+}
+variable "common_tags" {
+    default = {
+        project = "oscarcorner.com"
+    }
 }
