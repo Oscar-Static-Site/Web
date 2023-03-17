@@ -19,5 +19,7 @@ module "state" {
 }
 module "web" {
   source = "./modules/web/"
-
 }
+module "logic" {
+  source = "./modules/db"
+    }
