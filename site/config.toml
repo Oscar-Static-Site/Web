@@ -4,7 +4,6 @@ theme = "poison"
 paginate = 10
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
-
 [params]
     brand = "Oscar stuff"                      # name of your site - appears in the sidebar
     brand_image = "/images/profilere.jpg"    # path to the image shown in the sidebar
