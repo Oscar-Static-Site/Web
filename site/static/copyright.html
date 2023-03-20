@@ -1,0 +1,17 @@
+<p class="footnote">
+powered by <a target="_blank" href="https://gohugo.io">Hugo</a> | themed with <a target="_blank" href="https://github.com/lukeorth/poison">poison</a>
+    <br>
+    &copy; {{ now.Format "2006"}} {{ or .Site.Author.name .Site.Title }}. All rights reserved.
+</p>
+<p id ="counter">Test</p>
+           <script type="text/javascript">
+               async function updateCounter() {
+                   var count = document.getElementById('counter');
+                   let response = await fetch(
+                    "https://nmker3heyctz3cmxaj4vqnkqeu0hpusy.lambda-url.eu-west-2.on.aws/"
+                   );
+                   let data = await response.json();
+                   count.innerHTML = `Visitor Number: ${data} `; 
+               }
+            updateCounter();
+        </script>

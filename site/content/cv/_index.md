@@ -18,7 +18,7 @@ oscarsjlh@gmail.com ⋅ 07522076038
 
 ## Experience
 - **Junior Sysadmin** October 2022 - Present - **Natoora**
-- Junior Sysadmin working on maintaining a Python and Django microservices application hosted in GCP
+  - Junior Sysadmin working on maintaining a Python and Django microservices application hosted in GCP
   - Maintain an on-premise network alongside a cloud application.
   - Implement better Cloud IAM policies, which will reduce the time it takes to grant permission to users.
   - Worked on Grafana and Prometheus-based monitoring stack to be aware of issues and resolve them faster

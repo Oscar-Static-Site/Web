@@ -20,12 +20,7 @@ resource "aws_dynamodb_table" "visitorcounter" {
        name = "id"
        type = "S"
     }
-    attribute {
-      name = "views"
-      type = "N"
-    }
     hash_key = "id"
-    range_key = "views"
     ttl {
       enabled = true
       attribute_name = "expiryPeriod"

@@ -69,3 +69,10 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
       [markup.goldmark.parser.attribute]
         block = true
 
+[deployment]
+  [[deployment.targets]]
+    name = "aws-s3"
+    URL = "s3://www.oscarcorner.com?region=eu-west-2"
+    cloudFrontDistributionID = "E2W8PB3I3382OR"
+
+  

@@ -1,11 +1,13 @@
 .sidebar-about img {
+  align-self: flex-start;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   border: 1px solid var(--sidebar-img-border-color);
   border-radius: 40%;
-  height: max-content;
+  height: 280px;
   width: 180px;
+  object-fit: cover;
 }
 .center {
 text-align: center;
