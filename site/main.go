@@ -31,7 +31,6 @@ func build(ctx context.Context) error {
 	Key := client.SetSecret("awsKey", os.Getenv("AWS_ACCESS_KEY_ID"))
 	Secret := client.SetSecret("awsSecret", os.Getenv("AWS_SECRET_ACCESS_KEY"))
 	awsRegion := client.SetSecret("awsRegion", os.Getenv("AWS_REGION"))
-	dir := client.SetSecret("DIR", os.Getenv("GITHUB_ACTION_PATH"))
 	src := client.Host().Directory("src")
 	hugo := client.Container().
 		From("477601539816.dkr.ecr.eu-west-2.amazonaws.com/hugo-oscar-eu:latest")
@@ -46,7 +45,6 @@ func build(ctx context.Context) error {
 	hugo = hugo.WithSecretVariable("AWS_ACCESS_KEY_ID", Key)
 	hugo = hugo.WithSecretVariable("AWS_SECRET_ACCESS_KEY", Secret)
 	hugo = hugo.WithSecretVariable("AWS_DEFAULT_REGION", awsRegion)
-	hugo = hugo.WithSecretVariable("DIR", dir)
 	hugo = hugo.WithExec([]string{"hugo"})
 	hugo = hugo.WithExec([]string{"hugo", "deploy"})
 	output := hugo.Directory(export)
