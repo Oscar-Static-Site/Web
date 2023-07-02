@@ -58,7 +58,7 @@ func build(ctx context.Context) error {
 }
 
 func auth() string {
-	cmd, err := exec.Command("/bin/sh", "$DIR/cicd/auth.sh").Output()
+	cmd, err := exec.Command("/bin/sh", "auth.sh").Output()
 	if err != nil {
 		fmt.Printf("error %s", err)
 	}
