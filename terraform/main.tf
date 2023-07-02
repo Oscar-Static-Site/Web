@@ -22,4 +22,7 @@ module "web" {
 }
 module "logic" {
   source = "./modules/db"
-    }
+}
+module "iam" {
+  source = "./modules/iam"
+}
