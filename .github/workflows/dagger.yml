@@ -8,6 +8,10 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
