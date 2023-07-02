@@ -31,7 +31,7 @@ func build(ctx context.Context) error {
 	Key := client.SetSecret("awsKey", os.Getenv("AWS_ACCESS_KEY_ID"))
 	Secret := client.SetSecret("awsSecret", os.Getenv("AWS_SECRET_ACCESS_KEY"))
 	awsRegion := client.SetSecret("awsRegion", os.Getenv("AWS_REGION"))
-	dir := client.SetSecret("DIR", os.Getenv("DIR"))
+	dir := client.SetSecret("DIR", os.Getenv("GITHUB_ACTION_PATH"))
 	src := client.Host().Directory("$DIR/Web/site")
 	hugo := client.Container().
 		From("477601539816.dkr.ecr.eu-west-2.amazonaws.com/hugo-oscar-eu:latest")
