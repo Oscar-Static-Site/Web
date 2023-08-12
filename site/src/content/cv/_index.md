@@ -17,8 +17,7 @@ A **DEVOPS** engineer with 1 year of experience working in Technology Well verse
 {.center}
 
 ## Experience
-- Natoora March 2022 – Present
-                                                Junior Devops December 2022 - Present London, UK
+Natoora March                                                           2022 – Present Junior Devops - Present London, UK
  - Managed GCP cloud infrastructure for diverse projects, ensuring smooth development, testing, and production operations.
  - Implemented GitOps and IaC using ArgoCD and Terraform, enhancing deployment efficiency and consistency across stages.
  - Utilized Helm charts to package and deploy complex applications on Kubernetes clusters, ensuring consistent and scalable deployments
