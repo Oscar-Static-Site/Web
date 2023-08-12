@@ -17,28 +17,13 @@ A **DEVOPS** engineer with 1 year of experience working in Technology Well verse
 {.center}
 
 ## Experience
-- **Junior Devops** December 2022 - Present - **Natoora**
-  - Managed and maintained cloud infrastructure on Google Cloud Platform (GCP) for multiple
-  projects, supporting development, testing, and production environments. Utilized a
-  combination of GCP services, including compute instances, cloud databases, Kubernetes
-  clusters.
-  - Implemented GitOps and Infrastructure as Code (IaC) principles using ArgoCD and Terraform.
-  This streamlined the deployment process and ensured the consistency of environments across different stages of the development lifecycle. As a result, reduced the risk of configuration drift and improved overall system reliability.
-  - Implemented strategic optimizations utilizing preemptible instances and ephemeral runners, resulting in a remarkable 80% reduction in costs associated with specific tasks. By leveraging cost-effective resources for non-critical tasks, I maximized budget utilizationwithout compromising the overall performance of the CI/CD process. Additionally, these optimizations led to a substantial 50% increase in the speed of CI/CD jobs, accelerating the delivery of high-quality applications and enabling faster feedback loops for development teams.
-  - Led the adoption of a Prometheus and Grafana monitoring stack to monitor infrastructure and applications in real-time. Created custom dashboards and alerts to proactively identify and resolve issues, resulting in improved system uptime and reduced time-to-resolution for incidents.
-- **Helpdesk support** March. 2022 – December 2022
-  - Managed and maintained physical infrastructure, including Unifi and Cisco equipment, and pfSense firewalls.
-  - Migrated on-premise legacy IPsec VPN to a modern Wireguard VPN hosted on the cloud,
-  ensuring reliability in case of internet failure in the office.
-  - Provided user support in multiple regions across multiple continents, developing strong
-  problem solving and communication skills.
-
-- **Chef Jobs** June 2019 - March 2022
-  - Managed teams and developed strong communication skills.
-  - Work in high-pressure environments
-  - Developed high attention to detail
-  - Learned how to prioritize tasks
-
+- Natoora March 2022 – Present
+                                                Junior Devops December 2022 - Present London, UK
+ - Managed GCP cloud infrastructure for diverse projects, ensuring smooth development, testing, and production operations.
+ - Implemented GitOps and IaC using ArgoCD and Terraform, enhancing deployment efficiency and consistency across stages.
+ - Utilized Helm charts to package and deploy complex applications on Kubernetes clusters, ensuring consistent and scalable deployments
+ - Achieved 80% cost reduction via strategic optimizations like preemptible instances, maintaining performance while maximizing budget usage.
+ - Led Prometheus and Grafana adoption for real-time monitoring, customizing dashboards and alerts for enhanced uptime and issue resolution.
 ## EDUCATION
 - CompTIA A+ Certificate 2022  
 - CompTIA Network+ Certificate 2022 
