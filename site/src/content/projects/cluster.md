@@ -6,6 +6,7 @@ draft: false
 
 ### Bootstraping a k8s cluster.
 
+All the code can be find in the following [repo](https://github.com/oscar-todo-app/todo-app) in the infra cluster folder. 
 
 1st what are mutliple ways that we can make sure that once we have a cluster we have all the basics things installed on them:
 
@@ -105,3 +106,36 @@ spec:
 ```
 
 And then we have the apps folder with the helm charts and Values we want to deploy
+
+
+#### For example cert manager:
+
+Chart.yaml
+``` yaml 
+
+apiVersion: v2
+name: cert-manager
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.0"
+dependencies:
+  - name: cert-manager
+    version: v1.13.3
+    repository: https://charts.jetstack.io
+
+```
+And Values.yaml
+
+``` yaml 
+
+cert-manager:
+  serviceAccount:
+    annotations:
+      eks.amazonaws.com/role-arn: 
+  securityContext:
+    enabled: true
+    fsGroup: 1001
+
+```
+

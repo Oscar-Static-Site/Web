@@ -6,6 +6,8 @@ draft: false
 
 # Building a go app. 
 
+All the code can be find in the following [repo](https://github.com/oscar-todo-app/todo-app) in the infra cluster folder. 
+
 After reading and getting through the go books about web apps let's go and let's go further, I wanted to apply my learnings by building something myself.
 
 ## Demonstration of how the app works 
